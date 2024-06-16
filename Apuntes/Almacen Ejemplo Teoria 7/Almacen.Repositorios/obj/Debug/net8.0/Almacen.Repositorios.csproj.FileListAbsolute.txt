@@ -1,0 +1,15 @@
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\bin\Debug\net8.0\Almacen.Repositorios.deps.json
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\bin\Debug\net8.0\Almacen.Repositorios.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\bin\Debug\net8.0\Almacen.Repositorios.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\bin\Debug\net8.0\Almacen.Aplicacion.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\bin\Debug\net8.0\Almacen.Aplicacion.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen..16678CD5.Up2Date
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\refint\Almacen.Repositorios.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\Almacen.Repositorios.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Repositorios\obj\Debug\net8.0\ref\Almacen.Repositorios.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Almacen.Repositorios/1.0.0": {
+        "dependencies": {
+          "Almacen.Aplicacion": "1.0.0"
+        },
+        "runtime": {
+          "Almacen.Repositorios.dll": {}
+        }
+      },
+      "Almacen.Aplicacion/1.0.0": {
+        "runtime": {
+          "Almacen.Aplicacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Almacen.Repositorios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Almacen.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

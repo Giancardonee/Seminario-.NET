@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\bin\Debug\net8.0\Almacen.Aplicacion.deps.json
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\bin\Debug\net8.0\Almacen.Aplicacion.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\bin\Debug\net8.0\Almacen.Aplicacion.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\refint\Almacen.Aplicacion.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\Almacen.Aplicacion.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Almacen\Almacen.Aplicacion\obj\Debug\net8.0\ref\Almacen.Aplicacion.dll
