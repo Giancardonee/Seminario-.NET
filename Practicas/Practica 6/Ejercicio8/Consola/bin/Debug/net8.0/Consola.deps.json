@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Consola/1.0.0": {
+        "dependencies": {
+          "clasesEje8": "1.0.0"
+        },
+        "runtime": {
+          "Consola.dll": {}
+        }
+      },
+      "clasesEje8/1.0.0": {
+        "runtime": {
+          "clasesEje8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "clasesEje8/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
