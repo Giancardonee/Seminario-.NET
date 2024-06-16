@@ -1,0 +1,25 @@
+// Calculando el factorial con metodo no recursivo y devolviendo el valor por referencia: 
+        int resultadoFactorial=1; 
+        int argumentoPrograma = Int32.Parse(args[0]); 
+        FactorialNoRecursivo(ref resultadoFactorial, argumentoPrograma); 
+        Console.WriteLine($"El resultado del factorial de {argumentoPrograma} es: {resultadoFactorial}"); 
+
+        FactorialRecursivoReferencia(argumentoPrograma, ref resultadoFactorial); 
+        Console.WriteLine($"El resultado del factorial de {argumentoPrograma} es: {resultadoFactorial}"); 
+        
+    static void FactorialNoRecursivo(ref int resultado,int n){
+        for (int i=1; i<n; i++){
+            resultado*= (i+1); 
+        }
+    }
+// Calculando el factorial con metodo recursivo y devolviendo el valor por referencia: 
+    static void FactorialRecursivoReferencia(int n, ref int res)
+    {
+        if (n<=1) {res = 1;}
+        else
+        {
+            int res = 0;
+            CalculateFactorial(n - 1, ref res);
+            result = n * res;
+        }
+    }

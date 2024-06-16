@@ -1,0 +1,14 @@
+ 
+       
+/*
+En ambos casos, se imprime por pantalla la misma ruta.
+En la opcion 1, el @ desactiva los codigos de escape
+En la opcion 2, se utiliza la secuencia de escape \\para imprimir la ruta correctamente.  
+
+
+1)        string st = @"c:\windows\system";
+        Console.WriteLine(st);
+       
+2)        string st = "c:\\windows\\system";
+        Console.WriteLine(st);
+*/

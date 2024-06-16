@@ -1,0 +1,17 @@
+        double suma=0;
+        String teclado;
+        Console.Write("Por favor, ingrese un numero: "); 
+        teclado = Console.ReadLine();
+        while ( teclado!= " "){
+            try{
+                suma+= double.Parse(teclado);
+                Console.WriteLine($"La suma actual es: {suma}"); 
+            }
+            catch (FormatException e){
+                Console.WriteLine("###ERROR### no se ingresó un numero.");
+                
+            }   
+            Console.Write("Por favor, ingrese un numero: "); 
+            teclado = Console.ReadLine();
+        }
+        Console.WriteLine($"Programa finalizado. La suma total fue: {suma}"); 

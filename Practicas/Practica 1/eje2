@@ -1,0 +1,18 @@
+\n: Representa un salto de línea. \n indica al programa que debe comenzar una nueva línea.
+
+\t: Representa un tabulador horizontal.\t inserta un espacio horizontal en la cadena de texto, equivalente a un tabulador.
+
+\": Representa una comilla doble.las comillas dobles (") se utilizan para delimitar cadenas de texto. 
+Si necesitas incluir una comilla doble dentro de una cadena de texto, puedes utilizar \" para indicar que es parte de la cadena y no una delimitación.
+
+\\: Representa una barra invertida. La barra invertida (\) se utiliza en secuencias de escape 
+para indicar que el siguiente carácter es una secuencia de escape especial en lugar de su interpretación literal.
+Si necesitas incluir una barra invertida en una cadena de texto, debes usar \\ para que sea interpretada correctamente.
+
+==> Codigo: 
+  String nombre = "Gianca"; 
+  Console.Write(nombre +"\n");
+  Console.WriteLine("\t"+ nombre); 
+  Console.WriteLine("\"Hola!\"");  //==> imprime "Hola!"
+  Console.WriteLine("Hola como \\ andas"); // imprime Hola como \ andas;    
+  

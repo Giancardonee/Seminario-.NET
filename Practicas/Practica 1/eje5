@@ -1,0 +1,25 @@
+        Console.Write("Ingrese un nombre: ");
+        String nombre = Console.ReadLine(); 
+
+        // usando if - else 
+        if (nombre == "Juan"){Console.WriteLine("Hola Amigo!"); } 
+        else if (nombre == "Maria"){Console.WriteLine("Buen Día Señora");}
+        else if (nombre == "Alberto"){Console.WriteLine($"Hola {nombre}");}
+        else if (nombre == ""){Console.WriteLine("Buen Dia Mundo");}
+        else {Console.WriteLine($"Buen Dia {nombre}");}
+
+        
+        // usando switch 
+        switch (nombre)
+        {
+            case "Juan": Console.WriteLine("Hola Amigo!");  
+                break; 
+            case "Maria": Console.WriteLine("Buen Dia Señora");
+                break;
+            case "Alberto": Console.WriteLine($"Hola {nombre}");
+                break;
+            case "": Console.WriteLine("Buen Dia Mundo");
+                break;
+            default : Console.WriteLine($"Buen Dia {nombre}");
+                break;
+        }

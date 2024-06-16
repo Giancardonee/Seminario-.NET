@@ -1,0 +1,10 @@
+        /*
+        10) Escribir un programa que imprima en la consola todos los múltiplos
+         de 17 o de 29 comprendidos 
+        entre 1 y 1000
+        */ 
+
+        Console.WriteLine("Numeros entre 1 y 1000, multiplos de 17 o 29: "); 
+        for (int i=1; i<1000; i++){
+            if ( ((i % 17)== 0) || ((i % 29) == 0 )){Console.Write(i+" ");}
+        }

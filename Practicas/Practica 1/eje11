@@ -1,0 +1,16 @@
+        Console.WriteLine("10/3 = " + 10 / 3); // ==> imprime: 3 (Division entre enteros, devuelve un entero)
+        Console.WriteLine("10.0/3 = " + 10.0 / 3); // ==> imprime: 3.333 (Division entre un "nro real o decimal" con un nro entero, devuelve un "real o decimal")
+        Console.WriteLine("10/3.0 = " + 10 / 3.0); // ==> imprime:  3.333 (lo mismo que la linea anterior)
+        int a = 10, b = 3;
+        Console.WriteLine("Si a y b son variables enteras, si a=10 y b=3");
+        Console.WriteLine("entonces a/b = " + a / b); // ==> imprime: 3
+        double c = 3;
+        Console.WriteLine("Si c es una variable double, c=3");
+        Console.WriteLine("entonces a/c = " + a / c); // ==> imprime: 3.333
+a) ¿Qué se puede concluir respecto del operador de división “/” ?
+Mientras usemos el operador de division con numeros enteros, el resultado va a ser un entero. 
+Si dividimos un real con un entero, el resultado es un numero real 
+
+b) ¿Cómo funciona el operador + entre un string y un dato numérico?
+El operador + entre un String y un numero concatena el numero al String
+Ejemplo: String str = "a"+5; ==> el valor real del string seria a5 

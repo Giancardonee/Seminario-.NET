@@ -1,0 +1,13 @@
+a chequear jeje
+
+    static bool esPrimo (int n){
+        Boolean ok = false; 
+        int raizCuadrada = (int)Math.Sqrt(n); 
+        for (int i = 2; i<= raizCuadrada; i++){
+            if ( ((n %2) !=0) && ((n%raizCuadrada)!= 0)) {
+                ok=true;
+                return ok;
+            }
+        }
+    return ok; 
+    }

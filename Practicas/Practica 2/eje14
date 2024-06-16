@@ -1,0 +1,5 @@
+int? [] vector = new int[0]; 
+si se hace int?, se declara a vector como un tipo de dato int con posibilidad de almacenar un null 
+pero se le esta asignando un int que no puede ser de tipo nullable. 
+Para solucionar esto, se deberia cambiar la linea del new int[0] a ==> new int?[0].
+De esta manera, se le asigna el mismo tipo de dato el cual es el vector. 

@@ -1,0 +1,20 @@
+        var a = 3L;
+        dynamic b = 32;
+        object obj = 3;
+
+        a = a * 2.0; //==> Error no se puede convertir el tipo double en long
+        b = b * 2.0; 
+        b = "hola";  //==> Valido
+        obj = b;     //==> Valido
+        b = b + 11;  //==> Valido
+
+        obj = obj + 11; //==> Error, no se puede sumar a un objeto, se debe castear al objeto
+        
+        var c = new { Nombre = "Juan" }; // ==> Valido 
+        var d = new { Nombre = "María" }; // ==> Valido
+        var e = new { Nombre = "Maria", Edad = 20 }; // ==> Valido 
+        var f = new { Edad = 20, Nombre = "Maria" }; // ==> Valido 
+        f.Edad = 22; // ==> Invalido, el tipo anonimo es de solo lectura
+        d = c; // ==> Chequear que pasa aca, 
+        e = d; // ==> Invalido
+        f = e; // ==> Invalido 

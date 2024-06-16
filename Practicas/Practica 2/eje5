@@ -1,0 +1,6 @@
+ char c1 = 'A';
+ string st1 = "A";
+ object o1 = c1; == > boxing (se pasa de tipo valor a referencia)
+ object o2 = st1; == > no hay ni box ni unbox. Porque string es de tipo referencia y object tambien  
+ char c2 = (char)o1; == > unbox  ( se pasa de referencia a tipo valor )
+ string st2 = (string)o2; se produce un casteo, pero no hay box ni unbox 
