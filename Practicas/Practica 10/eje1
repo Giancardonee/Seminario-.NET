@@ -1,0 +1,46 @@
+
+        // a) Lista con todos los múltiplos de 5 entre 100 y 200
+        Enumerable.Range(100,500)
+            .Where(i => i % 5 ==0)
+            .ToList()
+            .ForEach(st => Console.Write($"{st} "));
+
+        // b) Lista con todos los números primos menores que 100
+        Enumerable.Range(1,99)
+            .Where(EsPrimo)
+            .ToList()
+            .ForEach(st => Console.Write($"{st} "));
+
+        // c) Lista con las potencias de 2, desde 20 a 210
+        Enumerable.Range(0,11)
+            .ToList()
+            .ForEach(st => Console.WriteLine($"2^{st}: {Math.Pow(2,st)}"));
+
+
+
+        // e) Lista de todos los n2 que terminan con el dígito 6, para  n entre 1 y 20
+        Enumerable.Range(1, 20)
+                               .Select(n => n * n)
+                               .Where(square => square % 10 == 6)
+                               .ToList()
+                               .ForEach(st => Console.WriteLine(st));
+
+         f) Lista con los nombres de los días de la semana en inglés que contengan una letra ‘u’ 
+        (tip: utilizar el enumerativo DayOfWeek)
+        Enum.GetValues(typeof(DayOfWeek))
+                            .Cast<DayOfWeek>()
+                            .Select(day => day.ToString())
+                            .Where(dayName => dayName.Contains('u'))
+                            .ToList()
+                            .ForEach(st => Console.WriteLine(st));
+
+     static bool EsPrimo(int number)
+    {
+        if (number < 2) return false;
+        for (int i = 2; i <= Math.Sqrt(number); i++)
+        {
+            if (number % i == 0)
+                return false;
+        }
+        return true;
+    }

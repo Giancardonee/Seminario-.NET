@@ -1,0 +1,23 @@
+        int[] vector1 = [1, 2, 3];
+        bool[] vector2 = [true, true, true];
+        string[] vector3 = ["uno", "dos", "tres"];
+        Set<int>(vector1, 110, 2);
+        Set<bool>(vector2, false, 1);
+        Set<string>(vector3, "Hola Mundo!", 0);
+        Imprimir(vector1);
+        Imprimir(vector2);
+        Imprimir(vector3);
+
+        static void Set<T> (T [] vec, T datoModificar, int posicion)       
+        {
+            vec[posicion] = datoModificar;
+        }
+
+        static void Imprimir <T> (T[] vec)
+        {
+            foreach (T t in vec)
+            {
+                Console.Write($"{t} "); 
+            }
+            Console.WriteLine(); 
+        }

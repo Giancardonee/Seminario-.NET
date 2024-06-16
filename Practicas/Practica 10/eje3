@@ -1,0 +1,139 @@
+ List<Alumno> listaAlumnos = new List<Alumno>();
+        List<Examen> listaExamenes = new List<Examen>();
+        List<Curso> listaCursos = new List<Curso>();
+
+        agregarAlumnos(listaAlumnos);
+        agregarExamenes(listaExamenes);
+        agregarCursos(listaCursos);
+
+        // inciso a) 
+        Console.WriteLine("***** => Alumnos que rindieron al menos un examen:     ");
+        listaExamenes.Select(e => e.alumnoId)
+                     .Distinct() // para que no se repitan los id
+                     .Join(listaAlumnos, examenId => examenId, alumno => alumno.idAlumno, (examenId, alumno) => alumno.nombre)
+                     .OrderBy(nombre => nombre)
+                     .ToList()
+                     .ForEach(nombre => Console.WriteLine($"{nombre}"));
+        // inciso b
+        Console.WriteLine("Listado de cursos con examenes. Ordenados por cantidad de examenes. ");
+        listaExamenes.GroupBy(e => e.cursoId)
+           .Join(
+               listaCursos,
+               g => g.Key,
+               c => c.cursoId,
+               (g, c) => new
+               {
+                   Curso = c.titulo,
+                   CantidadExamenes = g.Count()
+               }
+           )
+           .OrderBy(x => x.CantidadExamenes)
+           .ToList()
+           .ForEach(st => Console.WriteLine($"Titulo = {st.Curso} Cantidad = {st.CantidadExamenes}"));
+
+        // Inciso c
+        Console.WriteLine("Listado de alumnos que rindieron al menos un examen, con el título del curso y la nota del examen:");
+         listaExamenes.Join(listaAlumnos,
+                examen => examen.alumnoId,
+                alumno => alumno.idAlumno,
+                (examen, alumno) => new { examen, alumno })
+            .Join(listaCursos,
+                ea => ea.examen.cursoId,
+                curso => curso.cursoId,
+                (ea, curso) => new
+                {
+                    NombreAlumno = ea.alumno.nombre,
+                    TituloCurso = curso.titulo,
+                    NotaExamen = ea.examen.nota
+                })
+            .OrderBy(x => x.NombreAlumno)
+            .ThenBy(x => x.TituloCurso)
+            .ToList()
+            .ForEach(item => Console.WriteLine($"Nombre = {item.NombreAlumno}, Curso = {item.TituloCurso}, Nota = {item.NotaExamen}"));
+        // inciso d
+        Console.WriteLine("Se muestran solo los examenes aprobados (nota >=6)");
+                 listaExamenes.Join(listaAlumnos,
+                examen => examen.alumnoId,
+                alumno => alumno.idAlumno,
+                (examen, alumno) => new { examen, alumno })
+            .Join(listaCursos,
+                ea => ea.examen.cursoId,
+                curso => curso.cursoId,
+                (ea, curso) => new
+                {
+                    NombreAlumno = ea.alumno.nombre,
+                    TituloCurso = curso.titulo,
+                    NotaExamen = ea.examen.nota
+                })
+            .Where(x => x.NotaExamen >= 6) // ============= Esta linea se debe agregar 
+            .OrderBy(x => x.NombreAlumno)
+            .ThenBy(x => x.TituloCurso)
+            .ToList()
+            .ForEach(item => Console.WriteLine($"Nombre = {item.NombreAlumno}, Curso = {item.TituloCurso}, Nota = {item.NotaExamen}"));
+        // inciso e
+        Console.WriteLine("Listado de alumnos que no han rendido ningún examen:");
+        listaAlumnos
+            .GroupJoin(
+                listaExamenes,
+                alumno => alumno.idAlumno,
+                examen => examen.alumnoId,
+                (alumno, examenes) => new { alumno, examenes }
+            )
+            .Where(x => !x.examenes.Any())
+            .Select(x => x.alumno.nombre)
+            .OrderBy(nombre => nombre)
+            .ToList()
+            .ForEach(nombre => Console.WriteLine($"{nombre}"));
+        // inciso f
+            listaExamenes.GroupBy(examen => examen.alumnoId)
+                .Join(listaAlumnos,
+                grupo => grupo.Key,
+                alumno => alumno.idAlumno,
+                (grupo, alumno) => new
+                {
+                    NombreAlumno = alumno.nombre,
+                    Promedio = grupo.Average(examen => examen.nota)
+                })
+            .OrderBy(x => x.NombreAlumno)
+            .ToList()
+            .ForEach(st => Console.WriteLine($"Nombre = {st.NombreAlumno}, Promedio = {st.Promedio}"));
+
+
+// metodos estaticos: 
+    static void agregarAlumnos(List<Alumno> listaAlumnos)
+    {
+        listaAlumnos.Add(new Alumno("Juan"));
+        listaAlumnos.Add(new Alumno("Ana"));
+        listaAlumnos.Add(new Alumno("Andres"));
+        listaAlumnos.Add(new Alumno("Paula"));
+        listaAlumnos.Add(new Alumno("Sebastian"));
+        listaAlumnos.Add(new Alumno("Maria"));
+        listaAlumnos.Add(new Alumno("Camila"));
+        listaAlumnos.Add(new Alumno("Ivan"));
+        listaAlumnos.Add(new Alumno("Raul"));
+    }
+
+    static void agregarExamenes(List<Examen> listaExamenes)
+    {
+        listaExamenes.Add(new Examen(2, 5.0, 1));
+        listaExamenes.Add(new Examen(4, 7.0, 5));
+        listaExamenes.Add(new Examen(4, 9.0, 3));
+        listaExamenes.Add(new Examen(3, 10.0, 4));
+        listaExamenes.Add(new Examen(7, 5.0, 3));
+        listaExamenes.Add(new Examen(2, 8.0, 4));
+        listaExamenes.Add(new Examen(6, 9.0, 5));
+        listaExamenes.Add(new Examen(9, 7.0, 1));
+        listaExamenes.Add(new Examen(6, 5.0, 4));
+        listaExamenes.Add(new Examen(9, 1.0, 4));
+        listaExamenes.Add(new Examen(7, 9.0, 5));
+    }
+
+    static void agregarCursos(List<Curso> listaCursos)
+    {
+        listaCursos.Add(new Curso("Ingles"));
+        listaCursos.Add(new Curso("Matematica"));
+        listaCursos.Add(new Curso("Historia"));
+        listaCursos.Add(new Curso("Geografia"));
+        listaCursos.Add(new Curso("Literatura"));
+        listaCursos.Add(new Curso("Contabilidad"));
+    }
