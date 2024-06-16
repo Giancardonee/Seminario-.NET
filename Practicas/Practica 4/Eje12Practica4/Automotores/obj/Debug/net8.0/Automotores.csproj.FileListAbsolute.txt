@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\bin\Debug\net8.0\Automotores.deps.json
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\bin\Debug\net8.0\Automotores.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\bin\Debug\net8.0\Automotores.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\refint\Automotores.dll
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\Automotores.pdb
+C:\Users\Usuario\Desktop\Facultad\2 año\Seminario .NET\Eje12Practica4\Automotores\obj\Debug\net8.0\ref\Automotores.dll
