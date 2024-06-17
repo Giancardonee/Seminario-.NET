@@ -9,7 +9,7 @@
 📊 Persistencia de Datos usando LINQ con SQLite  
 ⏳ Introducción a Programación Asíncrona  
  
- # Proyecto de La Materia:  Gestion de Expedientes usando .NET
+ # Proyecto de La Materia:  Gestion de Expedientes 
 
 Primer entrega del proyecto (todo sobre consola y persistencia en archivos): [Entrega 1](https://github.com/Giancardonee/Sistema-Gestion-de-Expedientes-.NET)  
 Segunda entrega del proyecto (Interfaz de usuario con Blazor, persistencia de datos usando SQLite) [Entrega 2](https://github.com/Giancardonee/Segunda-Entrega-Tp-.NET)
