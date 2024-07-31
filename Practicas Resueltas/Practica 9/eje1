@@ -1,0 +1,15 @@
+        /* 1) Codificar el método genérico Get para que el siguiente código 
+        produzca la salida en la consolaindicada.
+        */ 
+        List<object> lista = [ "hola", 7, 'A' ];
+        string st = Get<string>(lista, 0);
+        int i = Get<int>(lista, 1);
+        char c = Get<char>(lista, 2);
+        Console.WriteLine($"{st} {i} {c}");
+
+        
+        Console.WriteLine("Hello, World!");
+        static T Get<T> (List<object> datos,int pos)
+        {
+            return (T)datos[pos]; 
+        }
