@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AL.UI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AL.UI.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AL.UI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AL.UI.props",
+      "PackagePath": "build\\AL.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AL.UI.props",
+      "PackagePath": "buildMultiTargeting\\AL.UI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AL.UI.props",
+      "PackagePath": "buildTransitive\\AL.UI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,119 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "AL.Aplicacion/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AL.Aplicacion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AL.Aplicacion.dll": {}
+        }
+      },
+      "AL.Repositorios/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AL.Aplicacion": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AL.Repositorios.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AL.Repositorios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AL.Aplicacion/1.0.0": {
+      "type": "project",
+      "path": "../AL.Aplicacion/AL.Aplicacion.csproj",
+      "msbuildProject": "../AL.Aplicacion/AL.Aplicacion.csproj"
+    },
+    "AL.Repositorios/1.0.0": {
+      "type": "project",
+      "path": "../AL.Repositorios/AL.Repositorios.csproj",
+      "msbuildProject": "../AL.Repositorios/AL.Repositorios.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "AL.Aplicacion >= 1.0.0",
+      "AL.Repositorios >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\AL.UI.csproj",
+      "projectName": "AL.UI",
+      "projectPath": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\AL.UI.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.UI\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.Aplicacion\\AL.Aplicacion.csproj": {
+              "projectPath": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.Aplicacion\\AL.Aplicacion.csproj"
+            },
+            "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.Repositorios\\AL.Repositorios.csproj": {
+              "projectPath": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 12\\AL\\AL.Repositorios\\AL.Repositorios.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

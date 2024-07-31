@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AL.UI/1.0.0": {
+        "dependencies": {
+          "AL.Aplicacion": "1.0.0",
+          "AL.Repositorios": "1.0.0"
+        },
+        "runtime": {
+          "AL.UI.dll": {}
+        }
+      },
+      "AL.Aplicacion/1.0.0": {
+        "runtime": {
+          "AL.Aplicacion.dll": {}
+        }
+      },
+      "AL.Repositorios/1.0.0": {
+        "dependencies": {
+          "AL.Aplicacion": "1.0.0"
+        },
+        "runtime": {
+          "AL.Repositorios.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AL.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AL.Aplicacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AL.Repositorios/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
