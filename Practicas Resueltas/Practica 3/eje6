@@ -1,0 +1,64 @@
+//-------------------------------------------------------------------------------------------
+// Main 
+        double[,] matrizA = new double[,]{{5,5,5}, {10,10,10}};
+        double[,] matrizB = new double[,]{{1,1,1}, {2,2,2}};
+
+        double [,]? sumaMatrices = sumarMatrices(matrizA,matrizB); 
+        double [,]? restaMatrices = restarMatrices(matrizA,matrizB);
+
+        try{
+            double[,]? multipMatrices = multiplicarMatrices(matrizA,matrizB);
+        }
+        catch (ArgumentException e){
+            Console.WriteLine(e.Message);
+        }
+//-------------------------------------------------------------------------------------------
+// Metodos
+    static double [,]? sumarMatrices (double[,]A, double [,]B){
+        if ( (A.GetLength(0)== B.GetLength(0)) && (A.GetLength(1) == B.GetLength(1))){
+            int filas = A.GetLength(0); 
+            int columnas = A.GetLength(1);
+            double [,] matrizReturn = new double [filas,columnas];
+            for (int i=0; i < filas; i++){
+                for (int i2=0; i2 < columnas; i2++){
+                    matrizReturn[i,i2] = A[i,i2] + B[i,i2]; 
+                }
+            }
+            return matrizReturn;
+        }
+        else {return null;}
+    }
+    // Cuidado con el orden de cada matriz, puede devolver numeros negativos
+    static double [,]? restarMatrices (double[,]A, double [,]B){
+        if ( (A.GetLength(0)== B.GetLength(0)) && (A.GetLength(1) == B.GetLength(1))){
+            int filas = A.GetLength(0); 
+            int columnas = A.GetLength(1);
+            double [,] matrizReturn = new double [filas,columnas];
+            for (int i=0; i < filas; i++){
+                for (int i2=0; i2 < columnas; i2++){
+                    matrizReturn[i,i2] = A[i,i2] - B[i,i2]; 
+                }
+            }
+            return matrizReturn;
+        }
+        else {return null;}
+    }
+    static double [,]?  multiplicarMatrices (double [,]A, double[,]B){
+        if ( (A.GetLength(0)== B.GetLength(0)) && (A.GetLength(1) == B.GetLength(1))){
+            int filas = A.GetLength(0); 
+            int columnas = A.GetLength(1);    
+            double [,] matrizReturn = new double[filas,columnas]; 
+            for (int i=0; i < filas; i++){
+                for (int i2=0; i2 < columnas; i2++){
+                    matrizReturn[i,i2] = A[i,i2] - B[i,i2]; 
+                }
+            }
+            return matrizReturn;
+        }
+        else{
+            throw new ArgumentException("Las matrices no coinciden.");
+        }
+    }
+
+
+//-------------------------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+        int i;
+        Console.WriteLine(i);
+
+        Este programa no compila, porque se quiere imprimir una variable que no esta inicializada
+        es decir, se encuentra declarada pero no tiene ningun valor. Por eso el compilador tira error. 

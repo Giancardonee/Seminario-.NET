@@ -1,0 +1,22 @@
+/*
+1) Consultar en la documentación de Microsoft y responder cuál es la diferencia entre los métodos 
+WriteLine() y Write() de la clase System.Console ¿Cómo funciona el método ReadKey() de 
+la misma clase? Escribir un programa que imprima en la consola la frase “Hola Mundo” haciendo una 
+pausa entre palabra y palabra esperando a que el usuario presione una tecla para continuar. 
+Tip: usar los métodos ReadKey() y Write() de la clase System.Console.
+
+La diferencia entre WriteLine y Write es que: 
+==> WriteLine: Imprime en pantalla y al final produce un salto de linea
+==> Write:     Imprime en pantalla, sobre la misma linea que esté, al final NO produce un salto de linea
+
+Metodo ReadKey(): 
+Obtiene la siguiente tecla de carácter o de función presionada por el usuario.
+Uno de los usos más comunes del método es detener la ReadKey() ejecución del programa hasta que el usuario presiona una tecla
+
+== > codigo: 
+
+        Console.Write("Hola ");
+        Console.ReadKey(); 
+        Console.Write("Hola Mundo! "); 
+
+*/

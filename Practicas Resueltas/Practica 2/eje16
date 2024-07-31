@@ -1,0 +1,9 @@
+       // imprimimos usando un for 
+       for (int i=0; i< args.Length; i++){
+        Console.WriteLine($"Hola! {args[i]}");
+       }
+
+       // imprimimos usando un foreach
+       foreach(string st in args){
+        Console.WriteLine($"Hola!  {st}"); 
+       }

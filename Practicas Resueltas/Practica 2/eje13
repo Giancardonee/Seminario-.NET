@@ -1,0 +1,20 @@
+
+
+/*
+    Teniendo en cuenta que no se pasan argumentos:
+
+    Console.WriteLine(args == null); // ==> true  
+    - Cuando se compara si es igual a null en un write, puede imprimir dos posibles valorees: 
+        True o False
+        En este caso, como no se pasa ningun valor como argumento args == null daria True, por lo tanto
+        Imprime True
+
+    Console.WriteLine(args.Length);  // ==> 0
+    - Cuando se hace args.Length, devuelve la cantidad de elementos recibidos. 
+        En este caso, imprime 0, ya que no recibe ningun argumento. 
+        Por ejemplo si se pasaran 3 argumentos, esta linea imprimiria 3
+*/ 
+Console.WriteLine(args == null); // ==> true  
+
+Console.WriteLine(args.Length);  // ==> 0
+    

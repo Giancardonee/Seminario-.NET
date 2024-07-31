@@ -1,0 +1,13 @@
+        /*
+            El metodo split() sirve para separar una cadena en subcadenas, la condicion para separar se debe
+            mandar entre los parentesis, por ejemplo si se quiere separar por espacio (caracteres " "), se debe hacer
+            lo siguiente: variableString.split(" "); 
+            Eso se puede guardar en un vector, o oen alguna estructura de datos. 
+        */ 
+        Console.Write("Ingrese una palabra: ");
+        string palabraIngresada = Console.ReadLine();
+        string [] palabrasSeparadas = palabraIngresada.Split(" "); 
+        // recorremos con un foreach cada palabra del vector y la imprimos 
+        foreach (string p in palabrasSeparadas){
+            Console.WriteLine(p); 
+        }

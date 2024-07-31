@@ -1,0 +1,27 @@
+tengo una imagen para el eje10. 
+Lo importante a saber es que: 
+int [] vector = new int[10]; 
+reserva 10 espacios de memoria en la memoria HEAP, porque los vectores son de tipo referencia
+
+cuando se hace v[0] = new StringBuilder (".net"); 
+se reserva espacio en la memoria stack, ya que se está instanciando a ese objeto.
+Ahora, la posicion v[0], en memoria stack tiene una referencia a la memoria heap, donde encuentra el valor real
+luego a v[0] se le asigna ".net"
+
+en el for, se le asigna la misma direccion de memoria a las demas posiciones, de esta manera
+todas las posiciones apuntan al mismo lugar de la memoria heap y todas las posiciones tendrian el valor ".net"
+
+Cuando a v[5] se le agrega la palabra "Framework", se modifica en todas las demas posiciones, ya que
+como apunta a una direccion de memoria, y esa direccion de memoria es apuntada por todos los demas, en memoria heap
+ahora esa referencia vale " Framework .net"
+
+Luego, se hace el v[5] = new StringBuilder ("CSharp"). 
+en memoria stack, se crea una nueva referencia a la memoria heap, por lo tanto, en la memoria heap se asigna el valor
+real del stringbuilder, que es "CSharp", y en memoria stack se le asigna la referencia a ese valor.
+
+por lo tanto, al final del programa, todas las demas posiciones menos v[5] apuntan a la misma referencia
+v[5] apunta a otra referencia porque se hizo el new stringBuilder, el cual asigna una nueva direccion de memoria.
+Cualquier cambio sobre la referencia de v[5] se vera reflejado solo en el. 
+mientras que cualquier cambio sobre la referencia de los demas indices, menos v[5], se veran reflejados en 
+todos los demas indices, menos en v[5]-
+ 

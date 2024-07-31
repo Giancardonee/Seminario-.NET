@@ -1,0 +1,11 @@
+    imprimir(1,2,3,4,"aadasd",44.40);
+
+    /* como se pueden pasar enteros, y cualquier tipo de dato,
+     es generico usar el object para no tener problemas de recibir distintos
+     tipos de argumentos.
+    */
+    static void imprimir (params object[] obj){
+        foreach (object o in obj){
+            Console.Write(o+" "); 
+        }
+    }

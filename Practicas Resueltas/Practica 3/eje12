@@ -1,0 +1,30 @@
+// MAIN -------
+ Stack<char> pila = new Stack<char>();
+        Console.Write("Ingrese una expresion: ");   
+        String expresion = Console.ReadLine();
+        if ( (expresion.Length % 2 ) ==0){
+            if (expresionBalanceada(expresion,pila)){
+                Console.WriteLine("Expresion correcta pa.");
+            }else{
+                Console.WriteLine("La expresion no esta balanceada."); 
+            }
+        }
+        else{
+            Console.WriteLine("La cadena no es par, por lo tanto nunca podria estar balanceada.");
+        }
+// METODOS -------
+ static bool expresionBalanceada (String expresion, Stack<char> pila){
+            int indice = 0; 
+            char caracterActual = expresion[indice];      
+            while (( caracterActual == '(' ))  {
+                pila.Push(caracterActual);
+                indice++;
+                caracterActual = expresion[indice];
+            }
+            //Sale del while por dos cosas: Se encontro otro caracter, o se encontro un caracter de cierre ')'
+            while ( (pila.Count>0) && (caracterActual == ')') ) {
+                pila.Pop(); 
+                indice++;
+            }
+        return pila.Count == 0;  
+        }
