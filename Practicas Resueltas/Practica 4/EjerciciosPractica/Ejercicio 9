@@ -1,0 +1,26 @@
+public void Metodo(short n) {
+ Console.Write("short {0} - ", n);
+ }
+ public void Metodo(int n) {
+ Console.Write("int {0} - ", n);
+ }
+ public int Metodo(int n) {
+ return n + 10;
+ }
+ Esto se conoce como sobrecarga de metodos, tenemos varios metodos bajo el mismo nombre
+ lo que cambia es lo que recibe y lo que retorna.
+
+ Si se llama al metodo Metodo y se la pasa como parametro un short, se ejecuta el primer metodo
+
+ El segundo y tercer metodo reciben lo mismo en cuanto a parametros, pero difieren en el tipo 
+ de retorno, un metodo retorna un int, y el otro metodo al ser void no retorna nada. 
+
+ El metodo que se ejecute,dependera de como se lo invoque. 
+ Si se lo invoca como una funcion (donde debe retornar un valor), se va a 
+ ejecutar el ultmo metodo, ya que devuelve un valor 
+
+ Si se lo invoca como un procedimiento (donde no debe retornar nada) se va a
+ invocar el segundo metodo. 
+
+ Entonces, en conclusion: La sobrecarga permite tener diferentes metodos bajo un mismo nombre.
+
