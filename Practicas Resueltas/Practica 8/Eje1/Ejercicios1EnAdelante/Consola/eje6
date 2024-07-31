@@ -1,0 +1,24 @@
+Teniendo en cuenta lo respondido en el ejercicio anterior, ¿Qué salida produce en la consola la 
+ejecución del siguiente programa?
+ 89
+ Práctica sobre la teoría  8
+    int i = 10;
+    Action a = delegate ()
+    {
+        Console.WriteLine(i);
+    };
+    a.Invoke();
+    i = 20;
+    a.Invoke();
+    Action[] acciones = new Action[10];
+    for (int i = 0; i < 10; i++)
+    {
+        acciones[i] = () => Console.Write(i + " ");
+    }
+    foreach (var a in acciones)
+    {
+        a.Invoke();
+    }
+
+
+sealed imprime 10, 10 veces
