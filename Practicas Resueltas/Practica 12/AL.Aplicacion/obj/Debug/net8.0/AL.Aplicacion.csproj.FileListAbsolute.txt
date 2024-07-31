@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\bin\Debug\net8.0\AL.Aplicacion.deps.json
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\bin\Debug\net8.0\AL.Aplicacion.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\bin\Debug\net8.0\AL.Aplicacion.pdb
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.AssemblyInfoInputs.cache
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.AssemblyInfo.cs
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.csproj.CoreCompileInputs.cache
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\refint\AL.Aplicacion.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\AL.Aplicacion.pdb
+C:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Aplicacion\obj\Debug\net8.0\ref\AL.Aplicacion.dll

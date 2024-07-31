@@ -1,0 +1,15 @@
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\bin\Debug\net8.0\AL.Repositorios.deps.json
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\bin\Debug\net8.0\AL.Repositorios.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\bin\Debug\net8.0\AL.Repositorios.pdb
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\bin\Debug\net8.0\AL.Aplicacion.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\bin\Debug\net8.0\AL.Aplicacion.pdb
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.csproj.AssemblyReference.cache
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.AssemblyInfoInputs.cache
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.AssemblyInfo.cs
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.csproj.CoreCompileInputs.cache
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repos.05DDFA7F.Up2Date
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\refint\AL.Repositorios.dll
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\AL.Repositorios.pdb
+c:\Users\Usuario\Desktop\Facultad Informatica\2 año\Seminario .NET\Practicas Resueltas\Practica 12\AL\AL.Repositorios\obj\Debug\net8.0\ref\AL.Repositorios.dll
