@@ -1,0 +1,172 @@
+        /* 
+        // Ejercicio 1: 
+        // Imprimiendo todos los objetos que hereden de A
+        A[] vector = [new A(3),new B(5),new C(15),new D(41)];
+        foreach (A a in vector)
+        {
+            a.Imprimir();
+        }
+        
+        // Ejercicio 2: 
+        // Utilizando el operador is
+        Console.WriteLine("Usando el is:"); 
+        foreach (A a in vector)
+        {
+            if (a is B){
+                a.Imprimir();
+            }
+            
+        }
+
+        // utilizando el metodo GetType y el operador TypeOf()
+        Console.WriteLine("Usando GetType y typeof()"); 
+        foreach (A a in vector)
+        {
+            if ( a.GetType() == typeof(B)){
+                a.Imprimir();
+            }    
+        }
+        */ 
+
+        // Ejercicio 3: 
+        /* 
+        El siguiente codigo no funciona porque en la clase Taxi, que hereda de Auto, se quiere acceder a la variable
+        velocidad, pero al no tener ningun modificador de acceso, por defecto se pone private. Una forma de solucionar
+        facil este error es anteponerle la palabra "potected" a la variable, papra que las clases que hereden de Auto
+        puedan acceder a esa variable.
+        
+        class Auto
+        {
+        protected double velocidad; ==> A esta varaible se le cambio el modificador de acceso a protected
+        public virtual void Acelerar() => Console.WriteLine("Velocidad = {0}", velocidad += 10);
+        }
+        class Taxi : Auto
+        {
+        public override void Acelerar() => Console.WriteLine("Velocidad = {0}", velocidad += 5);
+        }
+        */
+
+        // Ejercicio 4: 
+        /* 
+            No es necesario agregar el constructor : base en taxi, porque se invoca al constructor vacio, ya que todo 
+            Taxi es un Auto, entonces al invocarlo con el constructor vacio, se le pone como marca predeterminada "Ford"
+            Si se elimina el segundo constructor de la clase Auto, desde la clase Taxi, se debe invocar al constructor 
+            con parametros de la clase Auto, es decir, se le pasa la marca como parametro.
+
+
+        Taxi t = new Taxi(3,"Chevrolet");
+        Console.WriteLine($"Un {t.Marca} con {t.Pasajeros} pasajeros");
+        class Auto
+        {
+        public string Marca { get; private set; } = "Ford";
+        public Auto(string marca) => this.Marca = marca;
+        }
+        class Taxi : Auto 
+        {
+        public int Pasajeros { get; private set; }
+        public Taxi(int pasajeros,String marca) : base (marca) => this.Pasajeros = pasajeros;
+        }
+        */
+
+        // Ejercicio 5: 
+        /*  
+        class Persona
+        {
+        public string Nombre { get; set; }
+        
+        
+        }
+        public class Auto
+        {
+        private Persona _dueño1, _dueño2;
+        public Persona GetPrimerDueño() => _dueño1;
+        protected Persona SegundoDueño
+        {
+        set => _dueño2 = value;
+        }
+        }
+        Las lineas que provocan errores son aquellas que involucran el manejo externo o interno 
+        de variables pertenecientes a la clase Persona por la clase Auto.
+
+        Y los errores surgen a partir de que las clases poseen dos tipos de accesos diferentes, 
+        una es publica y la otra privada. No esta permitido que las clases de mayor acceso intercedan
+        en la creación, modificación o eliminación de variables o Propiedades pertenecientes a clases de menor acceso.
+
+        */ 
+        // Ejercicio 6: 
+        /*
+            Eje 6_1
+            El error del ejercicio 6A es que se quiere hacer
+            override a un metodo que no admite invalidacion es decir que no es virtual. 
+            Que un metodo sea virtual, permite la invalidacion (sobreescribir) el metodo
+            en clases hijas. 
+            Eje 6_2
+            Para que una clase pueda implementar un metodo abstracto, se debe
+            declarar a la clase como abstracta. 
+            Para solucionar esto deberia ser: abstract class A
+            Eje 6_3
+            El error es que, en la clase A, el metodo abstracto está implementado.
+            Cuando un metodo es abstracto, no debe estar implementado, ya que es obligacion
+            de cada clase que lo herede, que lo implemente a su manera.
+            Eje 6_4
+            Para declarar un método como override, la clase debe derivar de otra que posea un método
+             de tipo virtual, abstract u override. Este no es el caso, ya que la clase A no deriva de ninguna otra.
+            Eje 6_5
+            Un metodo sobreescrito, no puede cambiar el modificador de acceso, sino que hereda
+            el modificador de acceso del metodo de su clase padre.
+            Eje 6_6
+            Los metodos virtual, no pueden ser abstract, virtual, ni sobreescribirse.
+            Eje 6_7
+            Al no ponerle un modificador de acceso, el metodo virtual es privado, por lo cual no sera visible
+            desde fuera de su clase. Una solucion es anteponer la palanra public
+            Eje 6_8
+            El error es que estamos teniendo es que, en la clase A se declara un constructor 
+            con parametros, pero en la clase B, no se va a poder llamar al constructor vacio de A, porque ya tiene
+            un constructor implementado.
+            Eje 6_9 
+            El error esta que, desde la clase B, se quiere acceder a un atributo privado (_id) de la clase padre (clase A)
+            Eje 6_10
+            El método get no puede tener más acceso que la Propiedad que opera. Prop tiene acceso privado y el método get, es publico.
+            Eje 6_!1
+            La propiedad Prop es creada de manera abstracta en la clase A, por lo que la clase B (que deriva de A) debe implementarce completa. 
+            En B solo se implementa el método get de la misma, lo que causa un error.
+            Eje 6_12
+            La propuedad de la clase A, no es virtual, por lo tanto, desde otra clase
+            no se va a poder hacer una invalidacion. (sobreescritura)
+        */ 
+            /*
+                Una solucion podria ser, hacer una clase padre, que sea abstracta,
+                con un metodo abstracto imprimir, el cual cada clase hija, lo implemente a su manera
+                Y luego, en el foreach cada instancia va a imprimir de acuerdo al tipo de clase que sea.
+                Esto se lleva a cabo,a partir del polimorfismo.
+
+            */
+            // Ejercicio 7
+            /* 
+            Imprimidor.Imprimir(new A(), new B(), new C(), new D());
+            
+            abstract class letrass{ // clase padre
+                public abstract void Imprimir();
+            }
+            class A : letrass {
+            public override void Imprimir() => Console.WriteLine("Soy una instancia A");
+            }
+            class B : letrass {
+            public override void Imprimir() => Console.WriteLine("Soy una instancia B");
+            }
+            class C : letrass{
+            public override void Imprimir() => Console.WriteLine("Soy una instancia C");
+            }
+            class D : letrass{
+            public override void Imprimir() => Console.WriteLine("Soy una instancia D");
+            }
+
+            static class Imprimidor
+            {
+                public static void Imprimir(params object[] vector){
+                    foreach (letrass letra in vector){
+                        letra.Imprimir();
+                    }
+                }
+            }
+            */ 
