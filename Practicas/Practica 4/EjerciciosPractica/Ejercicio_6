@@ -1,3 +1,0 @@
-        Ecuacion2  ecuacion1 = new Ecuacion2(1,0,1);
-        ecuacion1.imprimrRaices();
-        

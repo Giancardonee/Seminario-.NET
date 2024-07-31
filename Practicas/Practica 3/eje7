@@ -1,6 +1,0 @@
-int i = 10;
-
-¿De qué tipo quedan definidas las variables x, y, z en el siguiente código? 
-var x = i * 1.0; ==> queda como double 
-var y = 1f;     ==> queda como float 
-var z = i * y;  ==> queda como float

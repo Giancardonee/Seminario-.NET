@@ -1,4 +1,0 @@
-
-Imprime la longitud del string que se encuentra entre ""
-== > 
-Console.WriteLine("100".Length); 

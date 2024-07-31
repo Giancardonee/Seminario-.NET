@@ -1,4 +1,0 @@
-       String st;
-       while (( st = Console.ReadLine()) != ""){ 
-         Console.WriteLine($"La cantidad de caracteres son {st.Length}"); 
-       }

@@ -1,3 +1,0 @@
-        double numero = 4.44444;
-        Console.WriteLine($"El numero es: {numero:F2}"); // ==> Imprime 4.44
-        Console.WriteLine("El numero es: {0:F2}",numero);  // ==> Imprime 4.44

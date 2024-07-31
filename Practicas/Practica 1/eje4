@@ -1,4 +1,0 @@
-        Console.Write("Ingrese su nombre: ");
-        String nombre = Console.ReadLine(); 
-        if (nombre == ""){Console.WriteLine("Hola Mundo"); }
-        else {Console.WriteLine($"Hola! {nombre}");}

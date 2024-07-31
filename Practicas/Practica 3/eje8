@@ -1,4 +1,0 @@
-        Object obj = new int[10];
-        dynamic dyna = 13;
-        Console.WriteLine(obj.Length); // ==> Error en compilacion. Object no tiene incorporado un metodo .Length
-        Console.WriteLine(dyna.Length); // ==> Error en ejecucion. Int no tiene incorporado un metodo .Length

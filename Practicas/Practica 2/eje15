@@ -1,7 +1,0 @@
-Console.WriteLine("¡Hola {0}!", args[0]); 
-/*
-    Si se pasan parametros / argumentos, imprime el Hola + el primer argumento recibido.
-    
-    Pero si no se pasan argumentos, tira una excepcion, por querer acceder a un indice fuera de rango, 
-    ya que, se intenta acceder al primer argumento, pero en realidad el programa no recibió ningun argumento. 
-*/
