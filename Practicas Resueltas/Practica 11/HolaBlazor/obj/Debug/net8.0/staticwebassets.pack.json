@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HolaBlazor.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HolaBlazor.bundle.scp.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\wwwroot\\clientes.html",
+      "PackagePath": "staticwebassets\\clientes.html"
+    },
+    {
+      "Id": "c:\\Users\\Usuario\\Desktop\\Facultad Informatica\\2 año\\Seminario .NET\\Practicas Resueltas\\Practica 11\\HolaBlazor\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HolaBlazor.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HolaBlazor.props",
+      "PackagePath": "build\\HolaBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HolaBlazor.props",
+      "PackagePath": "buildMultiTargeting\\HolaBlazor.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HolaBlazor.props",
+      "PackagePath": "buildTransitive\\HolaBlazor.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
