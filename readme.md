@@ -4,7 +4,7 @@
     
 🏗️ Arquitectura Limpia  
 🖥️ Interfaces  
-🧩 Inyección de Dependencias  
+🧩 Inyección de Dependencia
 🌐 Interfaz de Usuario (con Blazor)  
 📊 Persistencia de Datos usando LINQ con SQLite  
 ⏳ Introducción a Programación Asíncrona  
