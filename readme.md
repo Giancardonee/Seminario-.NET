@@ -1,5 +1,5 @@
 # Seminario de Lenguaje .NET
-**De esta materia me llevo muchos conceptos nuevos, la verdad me gusto bustante.**  
+**De esta materia me llevo muchos conceptos nuevos, la verdad me gusto bastante.**  
   **Algunos de los conceptos son:**  
     
 🏗️ Arquitectura Limpia  
