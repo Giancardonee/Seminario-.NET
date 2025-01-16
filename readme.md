@@ -12,7 +12,7 @@
  # Proyecto de la materia:  Gestion de Expedientes 
 
 🔵Primer entrega del proyecto (todo sobre consola y persistencia en archivos): [Entrega 1](https://github.com/Giancardonee/Sistema-Gestion-de-Expedientes-.NET)  
-🟢Segunda entrega del proyecto (Interfaz de usuario con Blazor, persistencia de datos usando SQLite) [Entrega 2](https://github.com/Giancardonee/Segunda-Entrega-Tp-.NET)
+🟢Segunda entrega del proyecto (Interfaz de usuario con Blazor, persistencia de datos usando SQLite) [Entrega 2](https://github.com/Giancardonee/Gestion-De-Tramites-y-Expedientes-)
 
 
  
